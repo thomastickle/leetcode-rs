@@ -6,6 +6,10 @@ impl Solution {
     pub fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
         let k = k as usize;
         let n = nums.len();
+        
+        if n < k {
+            return 0.0;
+        }
 
         let mut curr_sum: i32 = nums[0..k].iter().sum();
         let mut max_sum = curr_sum;
@@ -35,7 +39,7 @@ mod tests {
         assert_float_eq!(results, 12.750000, abs <= MAX_ERROR);
 
         let nums = vec![5];
-        let k = 2;
+        let k = 1;
         let results = Solution::find_max_average(nums, k);
         assert_float_eq!(results, 5.000000, abs <= MAX_ERROR)
     }
