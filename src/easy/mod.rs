@@ -8,3 +8,4 @@ mod lc_345;
 
 mod lc_283;
 mod lc_392;
+mod lc_643;

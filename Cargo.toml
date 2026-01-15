@@ -3,5 +3,8 @@ name = "leetcode-rs"
 version = "0.1.0"
 edition = "2024"
 
+[dev-dependencies]
+float_eq = "1.0.1"
+
 [dependencies]
 itertools = "0.14.0"
