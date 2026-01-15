@@ -34,7 +34,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_433::Solution;
+    use crate::medium::lc_433::Solution;
 
     #[test]
     fn test_compress() {

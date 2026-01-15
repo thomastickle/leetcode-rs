@@ -21,7 +21,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_334::Solution;
+    use crate::medium::lc_334::Solution;
 
     #[test]
     fn test_increasing_triplet() {

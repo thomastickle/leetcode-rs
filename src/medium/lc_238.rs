@@ -21,7 +21,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_238::Solution;
+    use crate::medium::lc_238::Solution;
 
     #[test]
     fn test_product_except_self() {

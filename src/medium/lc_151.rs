@@ -10,7 +10,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_151::Solution;
+    use crate::medium::lc_151::Solution;
 
     #[test]
     fn test_reverse_words() {
