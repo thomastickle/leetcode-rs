@@ -1,6 +1,6 @@
 use itertools::Itertools;
+use crate::lc_lib::solution::Solution;
 
-struct Solution;
 impl Solution {
     pub fn merge_alternatively(word1: String, word2: String) -> String {
         word1.chars().interleave(word2.chars()).collect()
@@ -9,7 +9,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_1768::Solution;
+    use crate::prob_1000::lc_1768::Solution;
 
     #[test]
     fn test_merge_alternatively() {

@@ -1,6 +1,6 @@
-/// LeetCode 283: Move Zeroes
+use crate::lc_lib::solution::Solution;
 
-struct Solution;
+/// LeetCode 283: Move Zeroes
 
 impl Solution {
     pub fn move_zeroes(nums: &mut Vec<i32>) {
@@ -19,7 +19,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_283::Solution;
+    use crate::prob_0::lc_283::Solution;
 
     #[test]
     fn test_move_zeroes() {

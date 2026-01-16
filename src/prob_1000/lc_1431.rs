@@ -1,6 +1,4 @@
-
-
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn kids_with_candies(candies: Vec<i32>, extra_candies: i32) -> Vec<bool> {
@@ -11,7 +9,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_1431::Solution;
+    use crate::prob_1000::lc_1431::Solution;
 
     #[test]
     fn test_kids_with_candies() {

@@ -1,5 +1,4 @@
-
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn compress(chars: &mut Vec<char>) -> i32 {
@@ -34,7 +33,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_433::Solution;
+    use crate::prob_0::lc_433::Solution;
 
     #[test]
     fn test_compress() {

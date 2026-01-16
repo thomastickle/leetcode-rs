@@ -1,4 +1,4 @@
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn reverse_vowels(s: String) -> String {        
@@ -16,7 +16,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_345::Solution;
+    use crate::prob_0::lc_345::Solution;
 
     #[test]
     fn test_reverse_vowels() {

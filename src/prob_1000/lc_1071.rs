@@ -1,5 +1,4 @@
-
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn gcd_of_strings(str1: String, str2: String) -> String {
@@ -18,7 +17,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_1071::Solution;
+    use crate::prob_1000::lc_1071::Solution;
 
     #[test]
     fn test_gcd_of_strings() {

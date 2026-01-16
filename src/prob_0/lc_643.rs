@@ -1,6 +1,6 @@
-/// LeetCode 643: Maximum Average Subarray I
+use crate::lc_lib::solution::Solution;
 
-struct Solution;
+/// LeetCode 643: Maximum Average Subarray I
 
 impl Solution {
     pub fn find_max_average(nums: Vec<i32>, k: i32) -> f64 {
@@ -26,7 +26,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_643::Solution;
+    use crate::prob_0::lc_643::Solution;
     use float_eq::assert_float_eq;
 
     #[test]

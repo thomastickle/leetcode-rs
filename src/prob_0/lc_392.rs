@@ -1,6 +1,6 @@
-/// LC 392: Is Subsequence
+use crate::lc_lib::solution::Solution;
 
-struct Solution;
+/// LC 392: Is Subsequence
 
 impl Solution {
     pub fn is_subsequence(s: String, t: String) -> bool {
@@ -20,7 +20,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_392::Solution;
+    use crate::prob_0::lc_392::Solution;
 
     #[test]
     fn test_is_subsequence() {

@@ -1,4 +1,4 @@
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn can_place_flowers(flowerbed: Vec<i32>, n: i32) -> bool {
@@ -25,7 +25,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_605::Solution;
+    use crate::prob_0::lc_605::Solution;
 
     #[test]
     fn test_can_place_flowers() {

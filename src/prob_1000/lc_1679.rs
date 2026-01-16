@@ -1,8 +1,6 @@
 /// LeetCode 1679: Max Number of K-Sum Pairs
-
-struct Solution;
-
 use std::collections::HashMap;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn max_operations(nums: Vec<i32>, k: i32) -> i32 {
@@ -35,7 +33,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_1679::Solution;
+    use crate::prob_1000::lc_1679::Solution;
 
     #[test]
     fn test_max_operations() {

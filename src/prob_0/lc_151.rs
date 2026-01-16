@@ -1,6 +1,4 @@
-
-struct Solution;
-
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn reverse_words(s: String) -> String {
@@ -10,7 +8,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_151::Solution;
+    use crate::prob_0::lc_151::Solution;
 
     #[test]
     fn test_reverse_words() {

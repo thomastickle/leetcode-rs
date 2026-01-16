@@ -1,7 +1,7 @@
+use crate::lc_lib::solution::Solution;
 
 /// LeetCode 1465: Maximum Number of Vowels In a Substring of Given Length
 
-struct Solution;
 
 impl Solution {
     pub fn max_vowels(s: String, k: i32) -> i32 {
@@ -28,7 +28,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_1465::Solution;
+    use crate::prob_1000::lc_1465::Solution;
 
     #[test]
     fn max_vowels_test() {

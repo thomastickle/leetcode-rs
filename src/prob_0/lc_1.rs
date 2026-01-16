@@ -1,8 +1,7 @@
 use std::collections::HashMap;
+use crate::lc_lib::solution::Solution;
 
 /// Leet Code 1: Two Sum
-
-struct Solution;
 
 impl Solution {
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
@@ -27,7 +26,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::easy::lc_1::Solution;
+    use crate::prob_0::lc_1::Solution;
 
     #[test]
     fn test_find_max_average() {

@@ -1,6 +1,7 @@
+use crate::lc_lib::solution::Solution;
+
 /// LeetCode 334: Increasing Triplet Subsequence
 
-struct Solution;
 
 impl Solution {
     pub fn increasing_triplet(nums: Vec<i32>) -> bool {
@@ -21,7 +22,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_334::Solution;
+    use crate::prob_0::lc_334::Solution;
 
     #[test]
     fn test_increasing_triplet() {

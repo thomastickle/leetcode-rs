@@ -1,6 +1,6 @@
-/// LC 11: Container With Most Water
+use crate::lc_lib::solution::Solution;
 
-struct Solution;
+/// LC 11: Container With Most Water
 
 impl Solution {
     pub fn max_area(height: Vec<i32>) -> i32 {
@@ -29,7 +29,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_11::Solution;
+    use crate::prob_0::lc_11::Solution;
 
     #[test]
     fn test_max_area() {

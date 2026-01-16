@@ -1,4 +1,4 @@
-struct Solution;
+use crate::lc_lib::solution::Solution;
 
 impl Solution {
     pub fn product_except_self(nums: Vec<i32>) -> Vec<i32> {
@@ -21,7 +21,7 @@ impl Solution {
 
 #[cfg(test)]
 mod tests {
-    use crate::medium::lc_238::Solution;
+    use crate::prob_0::lc_238::Solution;
 
     #[test]
     fn test_product_except_self() {
