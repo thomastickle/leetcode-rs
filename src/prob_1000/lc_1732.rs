@@ -18,9 +18,9 @@ impl Solution {
 fn test_largest_altitude() {
     let gain = vec![-5,1,5,0,-7];
     let result = Solution::largest_altitude(gain);
-    assert_eq!(result, 5);
+    assert_eq!(result, 1);
     
-    let gain = vec![-4, -3, -1, 4, 3, 2];
+    let gain = vec![-4, -3, -2, -1, 4, 3, 2];
     let result = Solution::largest_altitude(gain);
     assert_eq!(result, 0);
 }
