@@ -1,11 +1,10 @@
 use crate::lc_lib::solution::Solution;
-use itertools::Itertools;
 
 /// LeetCode 2390: Removing Stars From a String
 
 impl Solution {
     pub fn remove_stars(s: String) -> String {
-        let mut stack: Vec<char> = Vec::new();
+        let mut stack = String::new();
         for a_char in s.chars() {
             match a_char {
                 '*' => {
@@ -17,7 +16,7 @@ impl Solution {
             }
         }
 
-        stack.iter().join("")
+        stack
     }
 }
 
